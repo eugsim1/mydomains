@@ -1,0 +1,17 @@
+sudo certbot certonly \
+  --agree-tos \
+  --email simoseugene@yahoo.com \
+  --manual \
+  --preferred-challenges=dns \
+  -d *.secemeacloudpursuit.eu \
+  --server https://acme-v02.api.letsencrypt.org/directory
+  
+sudo certbot certonly \
+  --agree-tos \
+  --email simoseugene@yahoo.com \
+  --manual \
+  --preferred-challenges=dns \
+  -d *.secemeateam.tk \
+  --server https://acme-v02.api.letsencrypt.org/directory  
+  
+  

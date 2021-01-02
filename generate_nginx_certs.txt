@@ -94,4 +94,6 @@ sudo certbot certonly \
   --preferred-challenges=dns \
   -d *.secemeateam.tk  \
   --server https://acme-v02.api.letsencrypt.org/directory
+  
+  openssl x509 -text -noout -in certificate.crt 
     
